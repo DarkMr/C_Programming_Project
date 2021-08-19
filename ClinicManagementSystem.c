@@ -267,7 +267,7 @@ void displayInformation()
     {
         printf("\n\nPatient ID:%d",currentptr->patient.patientID);
         printf("\n\nNAME:%s", currentptr->patient.name);
-        /*printf("\n\nNO IC:%d",currentptr->patient.NoIc);
+        printf("\n\nNO IC:%d",currentptr->patient.NoIc);
         printf("\n\nAGE:%d", currentptr->patient.age);
         printf("\n\nBIRTH OF DATE:%s", currentptr->patient.dob);
         printf("\n\nRACE:%s", currentptr->patient.race);
@@ -281,7 +281,7 @@ void displayInformation()
         printf("\n\nFATHER NAME:%s",currentptr->patient.father.name);
         printf("\n\nFATHER NO PHONE:%s", currentptr->patient.father.phone);
         printf("\n\nMOTHER NAME:%s", currentptr->patient.mother.name);
-        printf("\n\nMOTHER NO PHONE:%s", currentptr->patient.mother.phone);*/
+        printf("\n\nMOTHER NO PHONE:%s", currentptr->patient.mother.phone);
         printf("\n");
         printf("\n\n------------------------------------------------------\n");
         currentptr=currentptr->ptrnext;
@@ -296,7 +296,7 @@ void displaypatient()
         printf("\n------------------------------------------------------");
         printf("\nPatient ID:%d", newptr->patient.patientID);
         printf("\n\nNAME:%s", newptr->patient.name);
-        /*printf("\n\nNO IC:%d", newptr->patient.NoIc);
+        printf("\n\nNO IC:%d", newptr->patient.NoIc);
         printf("\n\nAGE:%d", newptr->patient.age);
         printf("\n\nBIRYH OF DATE:%s", newptr->patient.dob);
         printf("\n\nRACE:%s", newptr->patient.race);
@@ -310,7 +310,7 @@ void displaypatient()
         printf("\n\nFATHER NAME:%s", newptr->patient.father.name);
         printf("\n\nFATHER NO PHONE:%s", newptr->patient.father.phone);
         printf("\n\nMOTHER NAME:%s", newptr->patient.mother.name);
-        printf("\n\nMOTHER NO PHONE:%s", newptr->patient.mother.phone);*/
+        printf("\n\nMOTHER NO PHONE:%s", newptr->patient.mother.phone);
         printf("\n");
         printf("------------------------------------------------------\n");
 }
